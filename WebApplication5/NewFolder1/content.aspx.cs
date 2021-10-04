@@ -62,6 +62,9 @@ namespace WebApplication5.NewFolder1
                     Cmd.CommandText = "UPDATE_BOARD_READ_COUNT";
                     Cmd.ExecuteNonQuery();
 
+                    //컨텐츠 페이지로 진입하며 조회수가 증가했고
+                    //컨텐츠 페이지에서 쿠키에 UpdateReadCount = 1을 담아둔다. 그럼 새로고침을 해도 if 문이 실행되지 않고
+                    //따라서 조회수는 증가하지 않는다.
                     Response.Cookies["Test"]["UpdateReadCount"] = "1";
 
 
