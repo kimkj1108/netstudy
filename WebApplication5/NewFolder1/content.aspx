@@ -40,6 +40,7 @@
             <tr>
                 <td>
                     <%--" CausesValidation="false"속성에 의해 유효성검사를 무시한다. --%>
+                    <%-- 여기서 목록으로 버튼만 유효성 검사를 피하기 위한 위의 속성이 존제한다.--%>
                     <asp:Button ID="btnList" runat="server" Text="  목록으로  " CausesValidation="false" OnClick="btnList_Click" />
                     <asp:TextBox runat="server" ID="pwd" TextMode="Password"></asp:TextBox>
                     <asp:RequiredFieldValidator ID ="RequiredFieldValidator1" runat="server" 
