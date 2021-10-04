@@ -11,7 +11,7 @@
     <%-- 태그들을 컨트롤 이라고 부르는 것으로 보임 --%>
     <form id="insert" method ="post" runat="server">
         
-        <table border ="0">
+        <table border ="0">    
             <tr>
                 <td></td>
             </tr>
