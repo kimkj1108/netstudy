@@ -54,7 +54,7 @@
         <asp:Label ID="IbError" runat="server" ForeColor="Red" BorderWidth="1px" BorderStyle="Solid" BorderColor="Red" Width="520px"
          Visible="false"></asp:Label><br/><%--br태그는 jsp와 동일하게 쓰는 듯 하다 --%>
         <asp:ValidationSummary ID="ValidationSummary1" runat="server"
-            ShowMessageBox="true" ShowSummary="false" DisplayMode="List" />
+            ShowMessageBox="true" ShowSummary="false" DisplayMode="List" />  
     </form>
 </body>
 </html>
