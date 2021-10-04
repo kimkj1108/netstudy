@@ -10,6 +10,7 @@ using System.Data;
 
 namespace WebApplication5.NewFolder1
 {
+    //프로젝트 속성의 web에서 첫페이지로 설정했다.
     public partial class list : System.Web.UI.Page
     {
         protected SqlConnection Con;
@@ -17,7 +18,7 @@ namespace WebApplication5.NewFolder1
 
         protected void Page_Load(object sender, EventArgs e)
         {
-            if (!IsPostBack)
+            if (!IsPostBack)//목록으로 올때 해당 페이지는 초기화되면 db의 값을 이용 할 것이다. (false일때 조건)
             {
                 Listing();
             }

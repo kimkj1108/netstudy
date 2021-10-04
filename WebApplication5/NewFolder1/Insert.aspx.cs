@@ -66,7 +66,7 @@ namespace WebApplication5.NewFolder1
             Cmd.Parameters["@Content"].Value = content.Text;
 
             Con.Open();
-            int i = Cmd.ExecuteNonQuery();//쿼리를 db에 전달하고 결과를 받는다.
+            int i = Cmd.ExecuteNonQuery();//쿼리를 db에 전달하고 결과를 받는다.//전달은 했으나 받을건 없다. 그래서 받고 끝!     
 
             Con.Close();
 
